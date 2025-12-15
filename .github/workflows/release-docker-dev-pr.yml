@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       pr_number:
-        description: 'PR number to build from -'
+        description: 'PR number to build from - test'
         required: true
         type: string
       pr_branch:
